@@ -1,0 +1,114 @@
+@media (max-width:480px) {
+
+    /* Navbar */
+    .navbar_content__list {
+        display: none;
+    }
+
+    .navbar_content__icon {
+        display: block;
+        margin-left: 250px;
+    }
+
+    .navbar_content__list__type {
+        width: auto;
+    }
+
+    /* Introduction */
+    .introduction_image__dekstop {
+        display: none;
+    }
+
+    .introduction__content {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .introduction__content h1{
+        font-size: 30px;
+        width: 50%;
+    }
+    .introduction__content p{
+        width: 50%;
+    }
+    /* Consectet */
+    .consectet {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .consectet__content {
+        width: 100%;
+    }
+
+    .consectet_card__first {
+        width: 100%;
+    }
+
+    .consectet_card__first__car {
+        width: 45%;
+    }
+
+    .consectet_card__first__ship {
+        width: 45%;
+    }
+
+    .consectet_card__second {
+        width: 100%;
+    }
+
+    .consectet_card__second__bus {
+        width: 45%;
+    }
+
+    .consectet_card__second__driving {
+        width: 45%;
+    }
+
+    /* Iquit */
+    .iquit_card__stacks {
+        display: none;
+    }
+
+    .iquit_card__python {
+        width: 50%;
+    }
+
+    .iquit_card__dollar {
+        width: 50%;
+    }
+    .iquit__content h4 {
+        font-size: 30px;
+    }
+    .iquit__content h6{
+        font-size: 20px;
+    }
+
+    /* People */
+    .people_card__two {
+        display: none;
+    }
+
+    .people_card__three {
+        display: none;
+    }
+
+    /* Meeting */
+    .meeting__image {
+        display: none;
+    }
+
+    .meeting__content {
+        width: 100%;
+    }
+    .meeting_content__btn {
+        margin-top: 15px !important;
+    }
+
+    /* Company */
+    .company__support {
+        display: flex;
+    }
+    .support{
+        margin-left: 30px;
+    }
+}

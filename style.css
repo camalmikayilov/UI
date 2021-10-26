@@ -1,0 +1,1051 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    padding: 0 25px;
+}
+
+body {
+    background-color: rgb(250, 239, 235);
+}
+
+/* Start NavBar */
+
+.navbar__logo{
+    cursor: pointer;
+}
+.navbar_content__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.navbar_content__list__type {
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.navbar_content__list__type1 {
+    width: 93px;
+    height: 40px;
+    background-color: #647B64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar_content__list__type1:hover {
+    background-color: red;
+}
+
+.navbar_content__list__type a {
+    color: #647B64;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.navbar_content__list__type1 a {
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.navbar_content__list__type:hover {
+    background-color: #647B64;
+}
+
+.navbar_content__list__type:hover a {
+    color: #fff;
+}
+
+.navbar_content__icon {
+    display: none;
+}
+
+/* End NavBar*/
+
+/* Start Introduction */
+
+.introduction_image__mobile {
+    display: none;
+}
+
+.introduction_content__btn {
+    width: 350px;
+    height: 73px;
+    background-color: #647B64;
+}
+
+.introduction_content__btn a {
+    width: 350px;
+    height: 73px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.introduction_content__btn h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125.5%;
+    letter-spacing: 0.155em;
+    text-transform: uppercase;
+    color: #FEFEFE;
+}
+.introduction__image figure img{
+    width: 100%;
+    height: 100%;
+}
+.introduction__image figure{
+    width: 343px;
+    height: 585,91px;
+}
+
+.introduction_content__btn svg {
+    width: 22px;
+    height: 15px;
+}
+
+.introduction_content__btn:hover {
+    background-color: red;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-around;
+}
+
+.introduction__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.introduction__content h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 116%;
+    color: #333333;
+    padding-bottom: 24px;
+}
+
+.introduction__content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    padding-bottom: 32px;
+}
+
+/* End Introduction */
+
+/* Start Consectet */
+
+.consectet {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.consectet__content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.consectet__content h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #F3B562;
+    margin-bottom: 17px;
+}
+
+.consectet__content h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #647B64;
+    margin-bottom: 40px;
+}
+
+.consectet__content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+    margin-bottom: 40px;
+}
+
+.consectet_content__btn {
+    width: 350px;
+    height: 73px;
+    background-color: #647B64;
+}
+
+.consectet_content__btn a {
+    width: 350px;
+    height: 73px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.consectet_content__btn h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125.5%;
+    letter-spacing: 0.155em;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    padding-top: 40px;
+}
+
+.consectet_content__btn svg {
+    width: 22px;
+    height: 15px;
+}
+
+.consectet_content__btn:hover {
+    background-color: red;
+}
+
+/* Consectet Card */
+.consectet__card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.consectet_card__first {
+    display: flex;
+    justify-content: space-around;
+}
+
+.consectet_card__second {
+    display: flex;
+    justify-content: space-around;
+}
+
+.consectet_card__first__car {
+    width: 288px;
+    height: 237px;
+    background-color: #fff;
+    padding-left: 30px;
+}
+
+.consectet_card__first__ship {
+    width: 288px;
+    height: 237px;
+    padding-left: 30px;
+}
+
+.consectet_card__second__bus {
+    width: 288px;
+    height: 237px;
+    padding-left: 30px;
+}
+
+.consectet_card__second__driving {
+    width: 288px;
+    height: 237px;
+    padding-left: 30px;
+}
+
+.consectet_card__first__ship:hover {
+    background-color: #647B64;
+}
+
+.consectet_card__second__bus:hover {
+    background-color: #647B64;
+}
+
+.consectet_card__second__driving:hover {
+    background-color: #647B64;
+}
+.consectet_card__first__ship{
+    background-color: #fff;
+}
+.consectet_card__second__bus{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.consectet_card__second__driving{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.consectet__card h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 116%;
+    color: #333333;
+    margin-top: 16px;
+}
+
+.consectet__card p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+    margin-top: 6px;
+}
+
+.consectet_card__first__car svg {
+    width: 48px;
+    height: 48px;
+    background-color: #647B64;
+    border-radius: 15%;
+    margin-top: 30px;
+}
+
+.consectet_card__first__ship svg {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 15%;
+    margin-top: 30px;
+}
+
+.consectet_card__second__bus svg {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 15%;
+    margin-top: 30px;
+}
+
+.consectet_card__second__driving svg {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 15%;
+    margin-top: 30px;
+}
+
+/* End Consectet */
+
+/* Start Iquit */
+
+
+.iquit__card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.iquit__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iquit__content h6 {
+    height: 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #F3B562;
+}
+
+.iquit__content h4 {
+    height: 45px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 110%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #647B64;
+
+}
+
+.iquit_card__python h5 {
+    height: 31px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 116%;
+    color: #333333;
+}
+
+.iquit_card__dollar h5 {
+    height: 31px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 116%;
+    color: #FFFFFF;
+}
+
+.iquit_card__stacks h5 {
+    height: 31px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+
+.iquit_card__python p {
+    height: 63px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+    padding: 5px;
+}
+
+.iquit_card__dollar p {
+    height: 63px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 5px;
+
+}
+
+.iquit_card__stacks p {
+    height: 63px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+    padding: 5px;
+}
+
+.iquit_card__dollar {
+    background-color: #647B64;
+}
+
+.iquit_card__python {
+    width: 31%;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iquit_card__dollar {
+    width: 31%;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iquit_card__stacks {
+    width: 31%;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iquit_card__python:hover {
+    background-color: #fff;
+}
+
+.iquit_card__stacks:hover {
+    background-color: #fff;
+}
+
+.iquit {
+    margin-top: 30px;
+}
+
+/* End Iquit */
+
+/* Start Metting */
+.meeting {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.meeting__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.meeting__content h6 {
+    height: 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #F3B562;
+    margin-bottom: 17px;
+}
+
+.meeting__content h4 {
+    height: 45px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #647B64;
+    margin-bottom: 24px;
+}
+
+.meeting__content p {
+    height: 84px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+    margin-bottom: 40px;
+}
+
+.meeting_content__btn {
+    width: 350px;
+    height: 73px;
+    background-color: #647B64;
+}
+
+.meeting_content__btn h4 {
+    height: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125.5%;
+    letter-spacing: 0.155em;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    margin-top: 25px;
+}
+
+.meeting_content__btn svg {
+    width: 22px;
+    height: 15px;
+}
+
+.meeting_content__btn a {
+    width: 350px;
+    height: 73px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meeting_content__btn:hover {
+    background-color: red;
+}
+.meeting__image figure{
+    width: 623px;
+    height: 605px;
+}
+.meeting__image figure img{
+    width: 100%;
+    height: 100%;
+}
+
+/* End Meeting */
+
+/* Start People */
+
+.people_content__arrow__right {
+    border-radius: 50%;
+    background-color: #647B64;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.people_content__arrow__left {
+    border-radius: 50%;
+    background-color: #fff;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.people_content__text h6 {
+    height: 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #F3B562;
+    width: 100%;
+}
+
+.people_content__text h4 {
+    height: 45px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #647B64;
+    width: 100%;
+}
+
+.people_content__text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.people__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.people_content__arrow {
+    display: flex;
+    width: 15%;
+}
+
+.people__card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.people_card__image {
+    display: flex;
+}
+
+.people_card__one {
+    width: 31%;
+    height: 360px;
+    border-radius: 15%;
+}
+
+.people_card__two {
+    width: 31%;
+    height: 360px;
+    border-radius: 15%;
+}
+
+.people_card__three {
+    width: 31%;
+    height: 360px;
+    border-radius: 15%;
+}
+
+.people_card__text {
+    width: 260px;
+    height: 63px;
+    background-color: #f6f7f6;
+}
+.people_card__image figure{
+    height: 268px;
+}
+
+.people_card__ {
+    background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%), #FFFFFF;
+    border-radius: 5.18621px;
+}
+
+
+
+/* End People */
+
+/* Start Footer */
+footer {
+    background-color: #F0DCC5;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+}
+
+/* Start About */
+
+.footer__about {
+    width: 20%;
+    margin-top: 50px;
+}
+
+.footer_about__content p {
+    width: 249px;
+    height: 54px;
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
+
+.footer_about__content h5 {
+    width: 195px;
+    height: 24px;
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga'off;
+    color: #4F4F4F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 8px;
+}
+
+.footer_about__content h6 {
+    width: 195px;
+    height: 24px;
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga'off;
+    color: #4F4F4F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 20px;
+}
+
+.footer_about__content figure {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 30px;
+}
+
+.instagram {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2D2BB;
+    border-radius: 50%;
+}
+.baskeetbol{
+    margin-left: 8px;
+}
+.twitter{
+    margin-left: 8px;
+}
+.youtube{
+    margin-left: 8px;
+}
+.footer_about__social {
+    display: flex;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 16px;
+}
+
+.instagram:hover {
+    background-color: #B833AA;
+    transition: 0.9s;
+    transform: rotateY(180deg);
+}
+
+.baskeetbol:hover {
+    background-color: orangered;
+    transition: 0.9s;
+    transform: rotateY(180deg);
+}
+
+.twitter:hover {
+    background-color: #00ACED;
+    transition: 0.9s;
+    transform: rotateY(180deg);
+}
+
+.youtube:hover {
+    background-color: red;
+    transition: 0.9s;
+    transform: rotateY(180deg);
+}
+.footer_about__content figure{
+    cursor: pointer;
+}
+.footer_about__content p:hover{
+    color: #fff;
+}
+.footer_about__content h5:hover{
+    color: #fff;
+}
+.footer_about__content h6:hover{
+    color: #fff;
+}
+/* End About */
+.company__support {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Start Company */
+
+.company {
+    width: 20%;
+    margin-top: 50px;
+}
+
+.company__list {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 30px;
+}
+
+.company__list h5 {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga'off;
+    color: #647B64;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.company__list h5 a {
+    color: #647B64;
+}
+
+.company_list__type li:hover a {
+    color: #fff;
+}
+
+.company__list:active h5 a {
+    color: red;
+}
+
+.company_list__type li {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'liga'off;
+    color: #333333;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+
+.company_list__type a {
+    color: #333333;
+}
+
+/* End Company */
+
+/* Start Support */
+.support {
+    width: 20%;
+    margin-top: 50px;
+}
+
+.support__list {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 30px;
+}
+
+.support__list h5 {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    font-feature-settings: 'liga'off;
+    line-height: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.support__list h5 a {
+    color: #647B64;
+}
+
+.support__list:active h5 a {
+    color: red;
+}
+
+.support_list__type li:hover a {
+    color: #fff;
+}
+
+.support_list__type li {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'liga'off;
+    color: #333333;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+
+.support_list__type a {
+    color: #333333;
+}
+
+/* End Support */
+
+/* Start Message */
+
+.message {
+    width: 30%;
+    margin-top: 50px;
+}
+
+.message__btn {
+    width: 350px;
+    height: 73px;
+    background-color: #647B64;
+}
+
+.message__btn h4 {
+    width: 155px;
+    height: 20px;
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125.5%;
+    letter-spacing: 0.155em;
+    text-transform: uppercase;
+    color: #FEFEFE;
+}
+
+.message__btn svg {
+    width: 22px;
+    height: 15px;
+}
+
+.message__btn a {
+    width: 350px;
+    height: 73px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
+
+.message__btn:hover {
+    background-color: red;
+}
+
+.message h3 {
+    width: 165px;
+    height: 20px;
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'liga'off;
+    color: #647B64;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+
+.message textarea {
+    width: 283px;
+    height: 113px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -8px 0px;
+}
+
+.message textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px 0 0 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+/* End Message */

@@ -1,0 +1,309 @@
+@media (max-width:768px) {
+
+    /* Navbar */
+    .navbar_content__list {
+        display: none;
+    }
+
+    .navbar_content__icon {
+        display: block;
+        margin-left: 200px;
+    }
+
+    .navbar_content__list__type {
+        width: auto;
+    }
+
+    /* Introduction */
+
+    .introduction__image figure img {
+        height: 524px;
+    }
+
+    .introduction__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introduction__content h1 {
+        font-size: 30px;
+        color: #647B64;
+    }
+
+    .introduction_content__btn {
+        width: 300px;
+        height: 50px;
+    }
+
+    .introduction_content__btn a {
+        width: 300px;
+        height: 50px;
+    }
+
+    .introduction_content__btn h4 {
+        font-size: 15px;
+    }
+
+    .introduction_content__btn svg {
+        width: 12.27px;
+        height: 8.37px;
+    }
+
+    /* Consectet */
+    .consectet {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .consectet__content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consectet__content p {
+        width: 50%;
+    }
+
+    .consectet__content h4 {
+        font-size: 30px;
+    }
+
+    .consectet__content h6 {
+        font-size: 20px;
+    }
+
+    .consectet_card__first {
+        width: 100%;
+    }
+
+    .consectet_card__first__car {
+        width: 45%;
+    }
+
+    .consectet_card__first__ship {
+        width: 45%;
+    }
+
+    .consectet_card__second {
+        width: 100%;
+    }
+
+    .consectet_card__second__bus {
+        width: 45%;
+    }
+
+    .consectet_card__second__driving {
+        width: 45%;
+    }
+
+    .consectet__content {
+        margin-bottom: 30px;
+    }
+
+    .consectet_content__btn {
+        width: 300px;
+        height: 50px;
+    }
+
+    .introduction_content__btn a {
+        width: 300px;
+        height: 50px;
+    }
+
+    .consectet_content__btn h4 {
+        font-size: 15px;
+        padding-bottom: 18px;
+    }
+
+    .consectet_content__btn svg {
+        width: 22px;
+        height: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+
+    /* Meeting */
+    .meeting__image {
+        display: none;
+    }
+
+    .meeting__content {
+        width: 100%;
+    }
+
+    .meeting__content h6 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .meeting__content h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .meeting_content__btn {
+        width: 100%;
+        height: 50px;
+        margin-top: -30px;
+        background-color: rgb(250, 239, 235);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .meeting_content__btn a {
+        width: 300px;
+        height: 50px;
+        background-color: #647B64;
+    }
+
+    .meeting_content__btn h4 {
+        font-size: 15px;
+        padding-bottom: 18px;
+    }
+
+    .meeting_content__btn svg {
+        width: 22px;
+        height: 15px;
+        margin-right: 15px;
+    }
+
+    /* People */
+
+    .people {
+        margin-top: 30px;
+    }
+
+    .people_card__content {
+        margin-top: 20px;
+    }
+
+    .people_card__three {
+        display: none;
+    }
+
+    .people_content__text h6 {
+        font-size: 20px;
+    }
+
+    .people_content__text h4 {
+        font-size: 35px;
+    }
+
+    /* Footer */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__about {
+        margin-right: 40px;
+    }
+
+    .footer__content {
+        width: 100%;
+    }
+
+    .footer_about__content {
+        width: 100%;
+    }
+
+    .message {
+        margin-top: 250px;
+    }
+
+    .instagram a {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .message__btn {
+        width: 100%;
+        height: 50px;
+        margin-top: -30px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(250, 239, 235);
+    }
+
+    .message__btn a {
+        width: 250px;
+        height: 50px;
+        background-color: #647B64;
+
+    }
+
+    .message__btn h4 {
+        font-size: 15px;
+        padding-bottom: 18px;
+    }
+
+    .message__btn svg {
+        width: 22px;
+        height: 15px;
+        margin-right: 15px;
+    }
+    .message textarea{
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .introduction__image {
+        display: none;
+    }
+
+    .introduction__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consectet__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .people_content__arrow {
+        display: none;
+    }
+
+    .consectet_card__first {
+        width: 100%;
+    }
+
+    .consectet_card__first__car {
+        width: 45%;
+    }
+
+    .consectet_card__first__ship {
+        width: 45%;
+    }
+
+    .consectet_card__second {
+        width: 100%;
+    }
+
+    .consectet_card__second__bus {
+        width: 45%;
+    }
+
+    .consectet_card__second__driving {
+        width: 45%;
+    }
+
+    .iquit__content h4 {
+        display: block;
+    }
+}
